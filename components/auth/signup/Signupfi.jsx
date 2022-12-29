@@ -1,9 +1,72 @@
 import React from "react";
-
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 const Signup = () => {
+
+    
+    
+  const [state, setState] = useState({
+    name: "",
+    email: "",
+    password: "",
+  });
+
+  const [type, setType] = useState("volunteer");
+  const navigate = useNavigate();
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setState((prevState) => ({
+      ...prevState,
+      [name]: value,
+    }));
+  };
+
+  const handleSubmit1 = (e) => {
+    e.preventDefault();
+    console.log(type, state);
+    const userData = {
+        email : state.email,
+        name : state.name,
+        password : state.password,
+
+      };
+    axios
+      .post(
+        "https://inherited-stuck-asp-carrier.trycloudflare.com/api/signup-customer/",
+        userData
+      )
+      .then((res) => {
+        console.log(res.data.token);
+        window.localStorage.setItem("token", res.data.token);
+        window.localStorage.setItem("auth", "true");
+          window.localStorage.setItem("name", state.name);
+          setAuth = "true";
+  navigate('/dashboardseller');
+        setLogin(res.data.message);
+        window.location.reload();
+
+        console.log(res.data);
+        console.log(userData);
+        // handle success
+      })
+      .catch((err) => {
+        console.log(err);
+        setLogin("User already Exists", err.message);
+
+        // handle error
+      });
+  };
+
+  const handleType = (e) => {
+    setType(e.target.value);
+  };
+  //create a drop down with 2 options
+
+    
   return (
     <section className="bg-white">
-    <div className="grid grid-cols-1 lg:grid-cols-2">
+    <div className="grid grid-cols-1 lg:grid-cols-2 h-full" >
         
 
         <div className="flex items-center justify-center px-4 py-8 sm:py-16 lg:py- bg-gray-50 sm:px-6 lg:px-8">
@@ -33,7 +96,7 @@ const Signup = () => {
                 <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl font-display">Sign up as fisher</h2>
                 <p className="mt-2 text-base text-gray-600 font-body">Already have an account? <a href="/login/loginfi" title="" className="font-medium text-blue-600 transition-all duration-200 hover:text-blue-700 hover:underline focus:text-blue-700">Login</a></p>
 
-                <form action="#" method="POST" className="mt-8">
+                <form action="/dashboardseller" method="POST" className="mt-8">
                     <div className="space-y-5">
                         <div>
                             <label className="text-base font-medium text-gray-900 font-body"> Full Name </label>

@@ -66,11 +66,11 @@ const Signup = () => {
 
     
   return (
-    <section className="bg-white">
-    <div className="grid grid-cols-1 lg:grid-cols-2">
+    <section className="bg-white h-screen">
+    <div className="grid grid-cols-1 lg:grid-cols-2 h-full">
         
 
-        <div className="flex items-center justify-center px-4 py-8 sm:py-16 lg:py- bg-gray-50 sm:px-6 lg:px-8">
+        <div className="flex items-center h-full justify-center px-4 py-8 sm:py-16 lg:py- bg-gray-50 sm:px-6 lg:px-8">
             <div>
                 <img className="w-full mx-auto" src="/images/land1.png" alt="" />
 
@@ -120,7 +120,9 @@ const Signup = () => {
                             <div className="mt-2.5">
                                 <input
                                     type="email"
-                                    id=""
+                                     name="email"
+                      id=""
+                      value={state.email}
                       onChange={handleChange}
                                     placeholder="Enter email "
                                     className="block w-full p-4 font-body text-black placeholder-gray-500 transition-all duration-200 border border-gray-200 rounded-md bg-gray-50 focus:outline-none focus:border-blue-600 focus:bg-white caret-blue-600"
@@ -133,8 +135,9 @@ const Signup = () => {
                             <div className="mt-2.5">
                                 <input
                                     type="password"
-                                          id=""
-
+                                 name="password"
+                      id=""
+                      value={state.password}
                       onChange={handleChange}
                                     placeholder="Enter your password"
                                     className="block w-full p-4 text-black font-body placeholder-gray-500 transition-all duration-200 border border-gray-200 rounded-md bg-gray-50 focus:outline-none focus:border-blue-600 focus:bg-white caret-blue-600"
@@ -145,9 +148,10 @@ const Signup = () => {
                         
 
                               <div>
-                            <button type="submit" className="inline-flex font-body items-center justify-center w-full px-4 py-4 mt-3 text-base font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md focus:outline-none hover:bg-blue-700 focus:bg-blue-700">
+                                  <a href="/dashboard">
+                            <button type="submit"  onClick={handleSubmit1} className="inline-flex font-body items-center justify-center w-full px-4 py-4 mt-3 text-base font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md focus:outline-none hover:bg-blue-700 focus:bg-blue-700">
                                 Signup
-                                      </button>
+                                      </button></a>
                         </div>
                     </div>
                 </form>

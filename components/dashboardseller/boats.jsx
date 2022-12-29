@@ -1,6 +1,6 @@
 import React from 'react'
-import Fishsellercard from '../dashboard/fishsellercard'
-import Sellercard from '../dashboard/sellercard'
+import Fishsellercard from '../dashboardseller/boatcard'
+import Sellercard from '../dashboardseller/boatcard'
 
 export default function dashboard() {
   return (
@@ -10,7 +10,7 @@ export default function dashboard() {
                   <Sellercard />
                                    <Sellercard />
 
-                                   <Sellercard />
+                      <Sellercard />
 
 
 
