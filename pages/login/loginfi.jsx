@@ -1,6 +1,6 @@
 import React from 'react'
-import Login from '../components/auth/Login'
-import Navbar from '../components/navbar/navbar'
+import Login from '../../components/auth/login/Loginfi'
+import Navbar from '../../components/navbar/navbar'
 const login = () => {
   return (
     <><Navbar />

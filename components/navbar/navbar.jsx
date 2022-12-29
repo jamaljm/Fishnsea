@@ -28,7 +28,7 @@ export default function navbar() {
                 </button>
 
                 <div className="hidden lg:flex w-full justify-end lg:items-center lg:space-x-10">
-                    <a href="#" title="" className="text-base font-medium text-black"> Home </a>
+                    <a href="/" title="" className="text-base font-medium text-black"> Home </a>
 
 
                     <a href="/login" title="" className="flex items-center px-5 p-5 justify-center w-19 h-10 text-white bg-blue-800 rounded-full">
