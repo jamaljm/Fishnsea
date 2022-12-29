@@ -8,8 +8,8 @@ export default function dashboard() {
                        <div className='flex py-5 flex-col h-screen gap-2 overflow w-2/5 '>
                   <Fishsellercard fishimg="/images/f1.jpg" />
                   <Fishsellercard fishimg="/images/f2.jpg" />
-                  <Fishsellercard fishimg="/images/f1.jpg" />
-                  <Fishsellercard fishimg="/images/f1.jpg" />
+                  <Fishsellercard fishimg="/images/f3.jpg" />
+                  <Fishsellercard fishimg="/images/f4.jpg" />
                   <a href='/dashboard/dashboardlistfi'>
                         <button type="submit" className="inline-flex font-body items-center justify-center w-2/5 px-4 py-1 -mt-1 text-base font-semibold text-black transition-all duration-200 bg-slate-200 border border-transparent rounded-md focus:outline-none hover:bg-slate-400">
                                 View more

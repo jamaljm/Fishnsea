@@ -1,9 +1,9 @@
 import React from 'react'
 import Navbar from '../../components/navbar/navbardash'
-import Sidebar from '../../components/sidebar/sidebar1'
-import Dashboard from '../../components/dashboard/dashboarddish'
+import Sidebar from '../../components/sidebar/sidebar'
+import Dashboard from '../../components/dashboard/poll'
 
-export default function dashdish() {
+export default function dashboard() {
   return (
       <>
           <div className=' bg-slate-300 h-screen w-screen overflow-y-scroll overscroll-y-none overscroll-x-none'>
