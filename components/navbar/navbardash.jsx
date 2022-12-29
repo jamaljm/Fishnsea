@@ -3,7 +3,7 @@ import React from 'react'
 export default function navbar() {
   return (
       <header>
-    <div className="bg-gray-100 border-b border-gray-200">
+    <div className="bg-white rounded-t-xl border-b border-gray-200">
         <div className="px-4 mx-auto sm:px-6 lg:px-8">
             <nav className="relative flex items-center justify-between h-16 lg:h-20">
                
@@ -32,7 +32,7 @@ export default function navbar() {
 
 
                     <a href="/login" title="" className="flex items-center px-5 p-5 justify-center w-19 h-10 text-white bg-blue-800 rounded-full">
-                       <h3 className='p-4'>Login</h3>
+                       <h3 className='p-4'>Logout</h3>
                     </a>
                 </div>
             </nav>

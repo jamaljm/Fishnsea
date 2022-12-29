@@ -27,3 +27,9 @@
   background: rgb(174, 174, 174);
   border-radius: 10px;
 }
+body{
+  background: #dadada;
+}
+#__next{
+    background: #dadada;
+}
