@@ -32,7 +32,7 @@ export default function sidebar() {
             
             <a href="/dashboard/dashdish" class="font-medium text-blue-600 dark:text-blue-500 hover:text-gray-800 no-underline">
               
-            <div class="min-w-50 h-fit px-8 py-3 space-y-1 text-center border border-gray-700 rounded-lg dark:border-gray-700 hover:bg-slate-200">
+            <div class="min-w-50 h-fit px-8 py-3 space-y-1 text-center border border-gray-300 rounded-lg dark:border-gray-700 hover:bg-slate-200">
 
 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFJklEQVR4nO2X609TdxzGeeVfQDeBKULb09NS7iCCDCbgiIEYXILZXjidzl3chbnNXXCvlrlhMNle7M2SvXDRFmhFsIACWTYzpsKk3IUCBeTSlkJbLgVdp/gs5xTKoRdOz8GBS/pNPq9OTvJ5fn2+v+YEBQUmMIEJzP92UFi4zX7wtfNzBwqNs9kFhqn0vNLaYNEFjUBorBFEGmqeE5Va9hVcsGXkGS3JWQaTPK20VrD6XBMsLFEFybZtWQD7wVdL5g8UYjanADOZ+WgjklAjEK6hPSoVtow8WHZnwxydjvYd8jXPNcHCki0LQJ/8srw1LRf12wmPAA0h5JoAo8IE9wCmLQtA1WZFfjopCw3bxR4BGkPdAkS6BRBETmxq52dzDp1f6bQ5fl+zlkikT56S/y2ERHdMOsxpuTAmvISOyDjcDI9GfYgEDSEEtBFxGEvJgSWnAFOZ+eiWp+K6QNS8aTthzz9cMrf/kOtEW3fFcup8b1ImmDtjTctFJ5G4eTsxn3/YyAxQ/zy3zlMnz5SfTsrChDx183ZiPu+wgRmAa+ep2jDlzTHpGCOS/7udcO/8dHJ2c7tsj6vTN8Nk6In13XmqYiPxma7nQ/K9YO5Ma3jMmufU+3UC4dPbCbbO9yZmgPnc2z3P3Ak+72s2shNsnbfmHvIQcL/nmTvB533NRnaCrfOWl1/xFHC755k7wed9DdedyDir+zajWOd4sViHvcV9SPuyD6lf9GLP571I+ewedp/pQfKZHiR92o3ET7qR8HEX4k93Iu6jTsQWdSCmqAPRH7ZD/kEbot5vg+w9LaSntCBPtULy7l0Q79yF+O2/IKJ4qwXCky2IPNmCiDebEXGiGbtO3EH48TvYefw2dr5xGzuO3cILx24h9GiTI/RI0zk/AvTbM87q8KwFCDv6J8KONM2zBsj8SnfuWf0Fwl5v+sbvKsU12rBCbAOFdZV6K2KY3Fgl+oYF0dfXIqeoc6N2GlFMapzIVtCsMEUTxHVYpevdpL2J+ykd5SHtFJdeW4VHgPVP239py/rSNZ6nzRSnqeYRwLu01T9pHhWRepEmGXAPsJFe15ghq5oAqRoBqRyERNkPiXIQUvUYZNWT60pLmeJVZhecA7BWpHYKUvUIpKphWtgpPgVZ5ThS1Hp8322D1uLA1MMlPAEwvvgYisF5ZFcPg1SNQlpt9nnaTHEJxVU+AVh6Lascw0+9M/jV+ADxKj1kVUaQFcP4WjsN+yNK2fs4lp7ghy4bSMUgyKrJdaWZcA7A1muyYgj3Fx7TUp1WBxIqdKgascPfaZxYRJRiAORVk09pSaUZBM3kBgL4WEZS2U+f5sqM2/8B16m+vwCRQu8hTjDEaa7wCMB2X0sUawMYFh9xDlA3ugDRZb1PaQrxMtwDsNzXkjI9xpYr1GNzIL6sDxd1c37L/254ANnlARBXTD6ladROOAdgu6+pm+Tnvln8YXqIuPJBSCoNECuHcLrJBMvfSz7FHy0BP3bZQFwaAKE2uMS9SVOIKFQmHgFY/mSkVZMQK/S0NFlpdN0gRMUYYpQD+E5rQZvFgRmHMwwVSj1kx/6rQxCXjYBQm1ilmXAO4CHt533tvD0mQVSMQ3RJD+FFHYiL9yD8RQexYhiEyuC3tEhlgrDCCf8A/kqvc4OsXxGTT2kX5TwCcJFeFV+W9rPXIhZpishyIw33AO7Sfp42F2kRizRNmRNeAXhVhEOvhQxxb9IUERRKDgECH/VFgY96PJWP+sAEJjCBCdqM+RfMgDSmLSSqNAAAAABJRU5ErkJggg=="></img>              
 
@@ -49,9 +49,9 @@ export default function sidebar() {
 
        
           <div class="flex gap-3">
-                <a href="/dashboard/dishpoll" class="font-medium text-blue-600 dark:text-blue-500 hover:text-gray-800 no-underline">
+                <a href="http://localhost:3000/laundrypage" class="font-medium text-blue-600 dark:text-blue-500 hover:text-gray-800 no-underline">
               
-            <div class="minw-20 h-fit px-8 py-3 space-y-1 text-center border border-gray-300 rounded-lg dark:border-gray-700 hover:bg-slate-200">
+            <div class="minw-20 h-fit px-8 py-3 space-y-1 text-center border border-gray-700 rounded-lg dark:border-gray-700 hover:bg-slate-200">
 
                               <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFRElEQVR4nO2Y2VNTZxiH2RPiP2B73ZlOZ4B2xlY708saBRQRsULYQUCQfaco9qbQaTu96lVnnOm0IFStkoU17BD2JXvY17jhgmj/gF/nO8nJOSc5cBJIuWm+mXP/PI/v971BPz/f8R3f8R3f8R32qTVE+1XprP5VOvhXzcO/cg7+FbMIKJ9BQPkUAsomEVg6gcCScQSWjCGweBRBRSMIKhxGUOEQggoGEXyzH8H5fQjO70VInhohN7oRktuFkNxOiHI6IMpuh+i6EuIsBcRZcogz2yDOeIzQ9L8Rmv4QoWkPEJp6H5KUVkhSWiBJvocTsmarJKE5yk/w1BisftUEXuskMI2AMieBYg1XgMAXDDACeUSghxHIoQVUTgKPIc54xBGQpP5lE0i2CyQ144Tsz203BPRwCFTaBAIqZngExpwEhngESH1GQEQESH22QGYbVyCNCNznEWgiAvBcgNRnCxD4Unp8NAgqIgLs8aEFep0EWOPjEJAz4+MQsI+PQ+AeJKS+2wLVevg7BOacBCZ5BJznf8Bp/nt45p8IKHgEHjoJsMfHTYH6xX/g/N1eeI9blveos7zDt+Y91Jr2UGN6i2rjW1QZdlGpf4MK/RuU616jTPsKpdpXKJl/ieK5lyia20Hh7AsUzLzAzZnnyJ9+jrypZ7gx9RS5k0+RM/GE+rLHrbg+to0szTYyNVvIGN1C+sgm0kY2kDq8gZShdSQPrXsmQIEv0ODvUGtmgRt3UWnYdYA74Odp+B0UzbLgpwn8Mxv8JAOfTcDHrcgaI+DbNvBRAr5pAx/eoMCTBteoz20BweoGVnXda57qOzzV7fCc6lY7PLv6Jqc6AZcNrCFxYFVYQKg6MzKs6tojVtdwqzvg7dVlA6tI7F9FQv+KsMChqs+7Vqfgp1jwB1Uf5VYntT//7gGkd0eo6gT8Wt8KvulbFhZgqu+hxkjgdz27qNOskeFUf8JTfcvlosr61xBe8QdOxjbgw7hGxHdZbPC9y7jauyQs4Gl1ZmQOVz15cB0XW6aoWSdjEmaHJ9+ZRjlV/SqBVy8hXr0oLMBXXXzHAr9ak1e+kHozp/pn1c0U7JeNcoSVO8Hbq8erl3ClZxFxPW4I2Krvcqp7C57+2M/jp3YB9ueAV7PguxdwuXtBWIBv1kVe/BcQ3TFznsfE/hVEVDcx8A1tLtUJeGyXBZe6LMICx7mUZPbnkdSOqGrC6e+d4O3VKfhOC2I6zcICZdrjW0oJrOeRXFQKXM2uTsObEdNhxsUOk7DAkatrXKvvt5Su9S3zXFTX6gT8QrsJ0e1GYQFvLyVPqsdxRoapTsGrjIhSGYQFvLmUyBvvWp1ZSvH7XNQLCgM+Kf0dZ37poKpHqYyIVBpwXumGwFGWkm1khKvTS+kKT3UC/1Heb9SL9EFsI849mrfBK/Q4p9ALC3Au6gHVD/rN7kn1GKURX/2qpsYlWs7An7zcgNM/qxh4uQ5SuU5YgHNRJ2zwonqz1/ZA8G0Tp/rHhXcp4LDaZg78Fz+pcF5pq07Ape4KsP9SItXJyHh7E9OzHtNpRkRdK3cT0/DUyDDgbgtwnkf7rJPfL977LWTiPo8qE8LrWhzwp35UuFT3SOC/XEqX9nselQaE32rFqR/kB8K7JXCcSynK8Ty6zvqhBY5zKUWynkd34N0SoJdSmpeWkq26mae6gQKnn0evCXhzKXFG5gjVpZ4IpI1sWA+7lFyqdzDVOfCHAJfKdTgr1wr/527S0EZU8uD6NgU+SFdfpcAdF5XnLyVvXlTpPvBfK3SRggK+4zu+4zu+8786/wLlOrgPlGKL2QAAAABJRU5ErkJggg==">
                                   </img>
@@ -110,7 +110,7 @@ export default function sidebar() {
 
          
 
-          <a href="http://localhost:3000/profiledet" class="flex items-center px-4 -mx-2">
+          <a href="/dashboard/dishpoll" class="flex items-center px-4 -mx-2">
             <img class="object-cover mx-2 rounded-full h-9 w-9" src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="avatar" />
             <span class="mx-2 font-medium text-gray-800 dark:text-gray-200">Jamal</span>
         </a>

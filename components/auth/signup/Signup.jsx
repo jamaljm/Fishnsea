@@ -1,6 +1,70 @@
 import React from "react";
+import { useState } from "react";
+import axios from "axios";
+import Link from 'next/link'
+
 
 const Signup = () => {
+
+    
+  const [state, setState] = useState({
+    name: "",
+    email: "",
+    password: "",
+  });
+
+  const [type, setType] = useState("volunteer");
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setState((prevState) => ({
+      ...prevState,
+      [name]: value,
+    }));
+  };
+
+  const handleSubmit1 = (e) => {
+    e.preventDefault();
+    console.log(type, state);
+    const userData = {
+        email : state.email,
+        name : state.name,
+        password : state.password,
+
+      };
+    axios
+      .post(
+        "https://inherited-stuck-asp-carrier.trycloudflare.com/api/signup-customer/",
+        userData
+      )
+      .then((res) => {
+        console.log(res.data.token);
+        window.localStorage.setItem("token", res.data.token);
+        window.localStorage.setItem("auth", "true");
+          window.localStorage.setItem("name", state.name);
+          setAuth = "true";
+
+        setLogin(res.data.message);
+        window.location.reload();
+
+        console.log(res.data);
+        console.log(userData);
+        // handle success
+      })
+      .catch((err) => {
+        console.log(err);
+        setLogin("User already Exists", err.message);
+
+        // handle error
+      });
+  };
+
+  const handleType = (e) => {
+    setType(e.target.value);
+  };
+  //create a drop down with 2 options
+
+    
   return (
     <section className="bg-white">
     <div className="grid grid-cols-1 lg:grid-cols-2">
@@ -35,15 +99,16 @@ const Signup = () => {
                 <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl font-display">Sign up</h2>
                 <p className="mt-2 text-base text-gray-600 font-body">Already have an account? <a href="/login" title="" className="font-medium text-blue-600 transition-all duration-200 hover:text-blue-700 hover:underline focus:text-blue-700">Login</a></p>
 
-                <form action="#" method="POST" className="mt-8">
+                <form action="/dashboard" method="POST" className="mt-8">
                     <div className="space-y-5">
                         <div>
                             <label className="text-base font-medium text-gray-900 font-body"> Full Name </label>
                             <div className="mt-2.5">
                                 <input
-                                    type="text"
-                                    name=""
-                                    id=""
+                                    name="name"
+                      id=""
+                      value={state.name}
+                      onChange={handleChange}
                                     placeholder="Enter your full name"
                                     className="block w-full p-4 text-black font-body placeholder-gray-500 transition-all duration-200 border border-gray-200 rounded-md bg-gray-50 focus:outline-none focus:border-blue-600 focus:bg-white caret-blue-600"
                                 />
@@ -55,8 +120,8 @@ const Signup = () => {
                             <div className="mt-2.5">
                                 <input
                                     type="email"
-                                    name=""
                                     id=""
+                      onChange={handleChange}
                                     placeholder="Enter email "
                                     className="block w-full p-4 font-body text-black placeholder-gray-500 transition-all duration-200 border border-gray-200 rounded-md bg-gray-50 focus:outline-none focus:border-blue-600 focus:bg-white caret-blue-600"
                                 />
@@ -68,8 +133,9 @@ const Signup = () => {
                             <div className="mt-2.5">
                                 <input
                                     type="password"
-                                    name=""
-                                    id=""
+                                          id=""
+
+                      onChange={handleChange}
                                     placeholder="Enter your password"
                                     className="block w-full p-4 text-black font-body placeholder-gray-500 transition-all duration-200 border border-gray-200 rounded-md bg-gray-50 focus:outline-none focus:border-blue-600 focus:bg-white caret-blue-600"
                                 />
@@ -78,10 +144,10 @@ const Signup = () => {
 
                         
 
-                        <div>
+                              <div>
                             <button type="submit" className="inline-flex font-body items-center justify-center w-full px-4 py-4 mt-3 text-base font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md focus:outline-none hover:bg-blue-700 focus:bg-blue-700">
                                 Signup
-                            </button>
+                                      </button>
                         </div>
                     </div>
                 </form>

@@ -49,7 +49,7 @@ export default function sidebar() {
 
        
           <div class="flex gap-3">
-                <a href="http://localhost:3000/laundrypage" class="font-medium text-blue-600 dark:text-blue-500 hover:text-gray-800 no-underline">
+                <a href="/dashboard/dishpoll" class="font-medium text-blue-600 dark:text-blue-500 hover:text-gray-800 no-underline">
               
             <div class="minw-20 h-fit px-8 py-3 space-y-1 text-center border border-gray-300 rounded-lg dark:border-gray-700 hover:bg-slate-200">
 
@@ -61,7 +61,7 @@ export default function sidebar() {
               </div>
               </a>
             
-            <a href="http://localhost:3000/wastepage" class="font-medium text-blue-600 dark:text-blue-500 hover:text-gray-800 no-underline">
+            <a href="/dashboard/dashseller" class="font-medium text-blue-600 dark:text-blue-500 hover:text-gray-800 no-underline">
               
             <div class="minw-20 h-fit px-8 py-3 space-y-1 text-center border border-gray-300 rounded-lg dark:border-gray-700 hover:bg-slate-200">
 
