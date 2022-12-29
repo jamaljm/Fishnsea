@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function navbardash() {
+export default function navbar() {
   return (
     <header>
     <div className="bg-gray-100 border-b border-gray-200">
@@ -10,7 +10,7 @@ export default function navbardash() {
                 <div className="lg:absolute lg:-translate-x-1 lg:inset-y-5 lg:left-1">
                     <div className="flex-shrink-0">
                         <a href="#" title="" className="flex">
-                            <img className="w-auto h-8 lg:h-10" src="https://cdn.rareblocks.xyz/collection/celebration/images/logo.svg" alt="" />
+                            <img className="w-auto h-8 lg:h-10" src="/images/logo.png" alt="" />
                         </a>
                     </div>
                 </div>
@@ -28,14 +28,11 @@ export default function navbardash() {
                 </button>
 
                 <div className="hidden lg:flex w-full justify-end lg:items-center lg:space-x-10">
-                    <a href="#" title="" className="text-base font-medium text-black"> Sign up </a>
+                    <a href="#" title="" className="text-base font-medium text-black"> Home </a>
 
-                    <a href="#" title="" className="text-base font-medium text-black"> Sign in </a>
 
-                    <a href="#" title="" className="flex items-center justify-center w-10 h-10 text-white bg-black rounded-full">
-                        <svg className="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
-                        </svg>
+                    <a href="/login" title="" className="flex items-center px-5 p-5 justify-center w-19 h-10 text-white bg-blue-800 rounded-full">
+                       <h3 className='p-4'>Login</h3>
                     </a>
                 </div>
             </nav>
@@ -56,13 +53,7 @@ export default function navbardash() {
 
             <div className="mt-6">
                 <div className="flex flex-col space-y-2">
-                    <a href="#" title="" className="py-2 text-base font-medium text-black transition-all duration-200 focus:text-blue-600"> Features </a>
-
-                    <a href="#" title="" className="py-2 text-base font-medium text-black transition-all duration-200 focus:text-blue-600"> Solutions </a>
-
-                    <a href="#" title="" className="py-2 text-base font-medium text-black transition-all duration-200 focus:text-blue-600"> Resources </a>
-
-                    <a href="#" title="" className="py-2 text-base font-medium text-black transition-all duration-200 focus:text-blue-600"> Pricing </a>
+                
                 </div>
 
                 <hr className="my-4 border-gray-200" />
