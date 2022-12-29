@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../../components/navbar/navbardash'
-import Sidebar from '../../components/sidebar/sidebar1'
+import Sidebar from '../../components/sidebar/sidebar3'
 import Dashboard from '../../components/dashboard/sellers'
 
 export default function dashdish() {

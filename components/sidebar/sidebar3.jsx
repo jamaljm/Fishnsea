@@ -20,7 +20,7 @@ export default function sidebar() {
        
           <div class="flex gap-3">
             <a href="/dashboard" class="font-medium  text-blue-600 dark:text-blue-500 hover:text-gray-800 no-underline">
-            <div class="min-w-50 h-fit px-8 py-3 space-y-1 text-center border-2 border-gray-700 rounded-lg dark:border-gray-700 hover:bg-slate-100	">
+            <div class="min-w-50 h-fit px-8 py-3 space-y-1 text-center border-2 border-gray-300 rounded-lg dark:border-gray-700 hover:bg-slate-100	">
 
 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEM0lEQVR4nO2Y21MTVxzHj4JCpaJAEgSVYMwGcKYXC7RRcuSh004v08fOdPrSTl/61hcRfaEprYxYSdIQRKi5mYRWH0pbbW21NUtrp38ExARMshvYzV6SqeJU8+skMFMkIUkdcuvkO/N72zP7/cw553c5CJVVVlllrRcmBUgVGpJ/qHHzFCaFmWNu/rjm94gUlRJAihAxyfchgC2oRAFgdWcu95JQiUoVAMch3LwJlTIAXoF4GZUyAHYLt1ExaK2pzmthUDpD0GgKQN3IXag57YXqQS/UDHmhQb8ALeYgvHCNXQXgY70ku6/Q/tHRX3no+JoBiSEAO88sQM3QPOw4PQ9PfeaD6k+9sP2TO7BN64HKjz1QMTCXMN/9YxienV6CF39iPiyYcbnWV113zn+yfiQAu876oXb4btYAeDVe+pmNqaZCFvQ2VOTVvERHvdEwEvDFze/+3P/EAHg1nv+eEVrsVGdWPz/kEJTtjugfKpsYI6zigtLCmwiLoMhmbd0wt0tioKwSPQUNuiBsFgAmBVDf5B4pnfSpjCY6nNGZdkcUVPYIEDYRlFYBFBZuWXGRO4W0sHWjddLRxedkBsojNdCQCwCcSK0CqFz0pQwAkeX1AActPCjMPLR+yU0hbXKVbDKF3m0cDd2TfUFDLgHwSnqFtq/obzcGcESZNAAgn2Qn137fbFrsaxoNxfaMhiAvAORKqFy0a6Mj9E16gDDsv8C+H2+69o4xuuaxJWgyLUK+ATRuAQhHcDAJoN0pvpkJoGWCYfeNM1f2nmcglwDqfh10H9WAul+fEuLIL1zsgDWIkyDaHNHf0gOwsP8CA7kG6O7B0NXVBV09eMOdOHx1KXJIC9uTUqnKHhEKDaDu1ycg1CcNGe5D0J60C0qr8AphE5YLCYCzjO7r7INkALvwaskCdEyJhMoWEQt9hHCWQbgo67/uAba0O6K3i+ES4ywifokfK65tDvGtYkmjOEMcucnFFJagZn0lns5YyCbZ9xKF7PzSSCELmdJFaf9zK9EywU6s/b55jDleiFaCcNHOJPOZmjn5ZNiZqplrNtHvNBpDf+WtmbtMT6c0v7IDETIJwMzfV5j5E+kenWSm0DMyAzWb63aacFEWlE7xKpxoJWziPaVV9B208ka5jW9FWajeyNZKDdRFiS4Y2/SB5kb4EeGi+lA+JDFQrzfoAt5NGym/Yzi5OXAY5VNK42xV3bnAid1n/fwTD/U3uIeEix5PNwnmXPXG2dqdw/6Pas8szGYL0PlD+H7bFDWtGPfIUNFIC1ul+vmeVhvl2TMWgPr4w9aQD6oG7/y9TTtHVQ7M3aoYmBs+cIn+ABWjOq8Gd2hI4dbj55t/0EtmlyCK0HwiLRpQ6Zrn/3ztOlShkjRP8ld6ycWnUbELuwU9Jvlw/Kxr3IIPu3nHsRkueQgvq6yyyvpf6B+PKAk35EzOSwAAAABJRU5ErkJggg==">              
 </img>
@@ -49,7 +49,7 @@ export default function sidebar() {
 
        
           <div class="flex gap-3">
-                <a href="/dashboard/dishpoll" class="font-medium text-blue-600 dark:text-blue-500 hover:text-gray-800 no-underline">
+                <a href="http://localhost:3000/laundrypage" class="font-medium text-blue-600 dark:text-blue-500 hover:text-gray-800 no-underline">
               
             <div class="minw-20 h-fit px-8 py-3 space-y-1 text-center border border-gray-300 rounded-lg dark:border-gray-700 hover:bg-slate-200">
 
@@ -63,7 +63,7 @@ export default function sidebar() {
             
             <a href="/dashboard/dashseller" class="font-medium text-blue-600 dark:text-blue-500 hover:text-gray-800 no-underline">
               
-            <div class="minw-20 h-fit px-8 py-3 space-y-1 text-center border border-gray-300 rounded-lg dark:border-gray-700 hover:bg-slate-200">
+            <div class="minw-20 h-fit px-8 py-3 space-y-1 text-center border border-gray-700 rounded-lg dark:border-gray-700 hover:bg-slate-200">
 
                               <img src="data:image/png;base64,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">
     </img>                              
@@ -83,7 +83,7 @@ export default function sidebar() {
 
     <div class="flex flex-col justify-between flex-1 mt-8">
         <nav>
-            <a class="flex items-center px-4 py-2 text-gray-700 bg-gray-100 rounded-md dark:bg-gray-800 dark:text-gray-200" href="http://localhost:3000/">
+            <a class="flex items-center px-4 py-2 text-gray-700 bg-gray-100 rounded-md dark:bg-gray-800 dark:text-gray-200" href="/dashboard">
                 <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                         d="M19 11H5M19 11C20.1046 11 21 11.8954 21 13V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V13C3 11.8954 3.89543 11 5 11M19 11V9C19 7.89543 18.1046 7 17 7M5 11V9C5 7.89543 5.89543 7 7 7M7 7V5C7 3.89543 7.89543 3 9 3H15C16.1046 3 17 3.89543 17 5V7M7 7H17"
