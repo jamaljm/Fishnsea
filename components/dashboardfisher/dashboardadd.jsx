@@ -7,9 +7,12 @@ export default function dashboard() {
 
     
   const [state, setState] = useState({
+      name: "",
       price: "",
-      fish: "",
-        discription: "",
+      discription: "",
+      retailers: "rohit",
+      fishermen:"jamal",
+        
         
   });
   const handleChange = (e) => {
@@ -23,15 +26,16 @@ export default function dashboard() {
   const handleSubmit1 = (e) => {
     e.preventDefault();
     const userData = {
-        fish : state.fish,
+        name : state.name,
         price: state.price,
         discription: state.discription,
+       
 
 
       };
       axios
       .post(
-          "https://asia-danger-burns-philadelphia.trycloudflare.com/api/signup-hostler/",
+          "https://imposed-game-seemed-warranty.trycloudflare.com/api/addfish/",
           userData
           )
           .then((res) => {
@@ -83,7 +87,7 @@ export default function dashboard() {
                             <div>
                                 <label for="" class="text-base font-medium text-gray-900"> Price </label>
                                 <div class="mt-2.5 relative">
-                                    <input type="email" name="email" id="" value={state.price}
+                                    <input type="number" name="price" id="" value={state.price}
                       onChange={handleChange}placeholder="" class="block w-full px-4 py-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md focus:outline-none focus:border-blue-600 caret-blue-600" />
                                 </div>
                             </div>
@@ -91,7 +95,7 @@ export default function dashboard() {
                             <div className='sm:col-span-2'>
                                 <label for="" class="text-base font-medium text-gray-900"> Discription </label>
                                 <div class="mt-2.5 relative">
-                                    <textarea type="age" name="age" id="" value={state.discription}
+                                    <textarea type="text" name="discription" id="" value={state.discription}
                       onChange={handleChange} placeholder="Enter your age" class="block w-full px-4 py-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md focus:outline-none focus:border-blue-600 caret-blue-600" />
                                 </div>
                             </div>

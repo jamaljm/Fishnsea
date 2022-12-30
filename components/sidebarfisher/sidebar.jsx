@@ -19,7 +19,7 @@ export default function sidebar() {
 
        
           <div class="flex gap-3">
-            <a href="/dashboardseller" class="font-medium  text-blue-600 dark:text-blue-500 hover:text-gray-800 no-underline">
+            <a href="/dashboardfisher" class="font-medium  text-blue-600 dark:text-blue-500 hover:text-gray-800 no-underline">
             <div class="min-w-50 h-fit px-8 py-3 space-y-1 text-center border-2 border-gray-700 rounded-lg dark:border-gray-700 hover:bg-slate-100	">
 
 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEH0lEQVR4nO2ZW2zbVBjHTZ3YicOmMbEHJMS4aEIajId19fHJKipBgVaDDTQmAVq5vFQdIBUemJBAFUJIXMZTxZDLCyDQgAo2JrHFuTiJ7cRxbK8jBYTUB8QuIB5B8MJl+9A5bbTEadq4SUrH/Ek/KbLP+b7/30n+J1IYJqj/ac1idt838Z7zhG8x+zBzOVUF94xX4uyF2TgLhEqcvVjB7CvMWi9gmKu+xuxbFcxCEyaBYXqYtVhzQwx/Wgp9chqHYClmcOioKTFR735ZlotTU1PgwVgV8bP9zDUzEqvNzAtcHoktub3MtbU9FhFP6br4Uziy2cWh707hMHix9myhLHZvfk9kc7WP67qwGF0Vb+Pw7S4OnXOpoHrMx3aAcuxzUI4fheIIbrhPkcI/u1J4+39iwML8XWXM/WpjDrzoY0OQPHkCDMOgJJUE6M/ublhnYw7KEve7jbjhVTVgo/B+S+L+LEtUwCUwD7mDI5BKpaBYLILjOBTymlxTJw7QNQ37EPe3MzmxOgZKiBsvSdwFS+KgltJOATKvvwDpdBpM02wQQq6pqgqZt18Cq//qur0WAfNgv3qgewam9zGsKXHvlCQevJh3boDU5GtU4GLiq5RKJbomdfhNMAc2NvQhlJ/fC65d7qyBk0MMbyJ+2iRiPRTuuQ6S7x+GbDYLlmU1FV+FrMnlcqB8IEPhvusb+hGs0UFwzUJnDJjS+o0FiTcKUgS8aLtvheRnH0M+n4dy+dJTWw6yluxRpo+A9tDWhr4E85Ht4OQz7RnQRP4mXYx8b6AIeMk9ikD58gvQNA1s225ZfBWyR9M0SBw/BrmR/ob+hMKuWyCPuC0rEq+j2B2aGDmvoyh4UcfuB+XEVzQiVyK+1oSxELPqMw82zKGIkV8MJPT6Ep+T+ME8iv6moSjUIQmQPvgEjUQymETkSsVXcRwHCoUC7ZmaeBryklA/c54/NFHY1ZJ4VRQezyLhrxwSoI74eki+8SKNyWrGtyverTFBepLeyqGXIbdzQ/1sgij8k0XC6JLiM2L0ORUJF7NIgFrUgU2gvHto2ZhsF3PhrKCzBjZBgw6qLTre3AASVBXFoJbMvTdC4sP3ui7erTkrSCSTmWS2V48qCummBtK9kRsyYuxMRowBIf3AVkh8+hHN7VYyvlNYC2dFYvoIpPZso1oofbGf0jv4m5f8GCX6YrclxdgZ5alBGnF+M75T2DUxqzx5NyT7Yj8SbUyrpSgK6LreVkx2woSu60C0MH6r3YzvpAnDMPwb8BuTc6MS/DC8riXmxuK+ejuO49+A3yfVqvgqfvszgQE3eAcg+Aj5qeBLPBykEAQx6gYH2brgJHav2J8SU03+cGiGXwN++zNXnAFZls+tIQNnV/IODPsx0UUDZ2VZHvJtIKiggmIui/oX2lR7CRtrfm4AAAAASUVORK5CYII="></img>
@@ -29,7 +29,7 @@ export default function sidebar() {
               </div>
             </a>
             
-            <a href="/dashboardseller/intrest" class="font-medium text-blue-600 dark:text-blue-500 hover:text-gray-800 no-underline">
+            <a href="/dashboardfisher/dashboardadd" class="font-medium text-blue-600 dark:text-blue-500 hover:text-gray-800 no-underline">
               
             <div class="min-w-50 h-fit px-8 py-3 space-y-1 text-center border border-gray-300 rounded-lg dark:border-gray-700 hover:bg-slate-200">
 

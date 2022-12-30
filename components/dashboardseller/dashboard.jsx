@@ -10,7 +10,8 @@ export default function dashboard() {
       name: "",
       price: "",
       discription: "",
-      retailers:"rohit",
+      retailers: "rohit",
+      fishermen:"jamal",
         
         
   });
@@ -28,7 +29,7 @@ export default function dashboard() {
         name : state.name,
         price: state.price,
         discription: state.discription,
-        retailers:state.retailers,
+       
 
 
       };
