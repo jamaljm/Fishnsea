@@ -1,6 +1,8 @@
 import React from 'react'
 
-export default function fishsellercard({fishimg}) {
+export default function fishsellercard({ fishimg }) {
+  
+  
   return (
     <div className="flex flex-col justify-center ">
 	<div

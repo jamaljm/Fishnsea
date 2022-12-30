@@ -5,6 +5,9 @@ import axios from 'axios';
 
 export default function fishsellercard({fishimg}) {
    
+
+ 
+    
   const [data, setData] = useState([]);
    const [searchParam] = useState(["city", "city"]);
   const [q, setQ] = useState("");
@@ -46,7 +49,7 @@ export default function fishsellercard({fishimg}) {
 	<div
 		className="relative flex flex-col md:flex-row md:space-x-5 space-y-3 md:space-y-0 rounded-xl border-sm p-2 max-w-xs md:max-w-3xl mx-auto border border-slate-300 bg-white">
 		<div className="w-full md:w-2/6 bg-white grid place-items-center">
-                    <img src={fishimg} alt="tailwind logo" className="rounded-xl" />
+                    <img src={item.image} alt="tailwind logo" className="rounded-xl" />
                 </div>
 			<div className="w-full md:w-2/3 h-full bg-white flex flex-col space-y-2 p-3">
 				<div className="flex justify-between item-center">

@@ -11,7 +11,7 @@ export default function dashboard() {
                                 View all
                             </button>
 </a>
-                  <Fishsellercard fishimg="/images/f1.jpg" />
+                  <Fishsellercard />
                   
                
                 
