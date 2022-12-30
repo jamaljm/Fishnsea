@@ -2,7 +2,7 @@ import React from 'react'
 
 const HomePage = () => {
   return (
-    <div className="bg-white">
+    <div className="bg-white h-screen">
     <header className="bg-[#FCF8F1] bg-opacity-30">
         <div className="px-4 mx-auto sm:px-6 lg:px-8">
             <div className="flex items-center justify-between h-16 lg:h-20">

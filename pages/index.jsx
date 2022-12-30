@@ -11,9 +11,8 @@ export default function Home() {
   
   return (
     <>
-      {!auth && <HomePage />}
+     <HomePage />
       
-      {auth && <dashboard />}
 
     </>
   )
