@@ -34,7 +34,7 @@ export default function sidebar() {
             <div class="min-w-50 h-fit px-8 py-3 space-y-1 text-center border border-gray-300 rounded-lg dark:border-gray-700 hover:bg-slate-200">
 
 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFVklEQVR4nO2XfWwTdRjHL0SJJkbjHxoNIfxBEJlsjI11617aXd/n1nUbg6hoECS+RA3+oyQE3R9GDTFBEhOjmBiNCUaIfxAlBFHbMTbpceva3l17Xd+u19d7aa/jJSxj7jHXraWwN1gYrEm/yfPfXfv9PPf8nuf5IUhZZZVVVlll3WOBWv0QUqq63Na7b8y4ncrodjyBlKKyhh73mKEHJK3lbMl9icvG7S1j+m7Iarsgq+kESd1xFCklSdru41mtBSS0E6TWDsio2iHTbHoHKQVdNu14SkIt4xJqljMPmZYXId1kAlFpnBDqdFpkpSurMR+UWs3TWZ8xn24wgKjQAV+Lpvkq7XPIShX09a3KtLaHp0umDdKNRhAb9CAqtCBs0wC/tRW4LSo6W9n8JLISlVW36wpZVxpBrNeDWKcFoRYFfqsa+C0twFU2QbJC+eeydKYxXdc/WdTiEDXta5byvqgwPS42mo7nSyaX9cY2YN89AIGvfwDfqXNA4hS4ySC4RqPg9LGTDl8k7aAZn8PLnHF4mSM4yezCPcyzSwOQW5/GApKqg+FVug1L+hEEQQRVhzn23oF04MRpoGgWyFASiGACiEAc3IE4uPyxaYDRKIz4WBihI+CQw8vAsCcMuBxkiMCI4MFhKrTu7gHUHXL9JjP1mqq7Me5jxTUehu/zMBzrYTigwimgQsmlAVAhuEQGwU4EpoaGPV4bRvYBwKo7B2gygaDQZsQadcNC75AkrKZZocvDcKc8DDfpjfAgm7+HAGC1u8B60QW2i8RVK+bec8cAYr1OPoBXUpXNuuLnWJZ9dDQmmGlWPOaNCDzNCiAbz8e9BBgcoXPmi6MfI7x/D1OzSyur6+JuB+AVekh07hoP/XjyC19UPDwaFS/QUXHcFxVBDtn8cgKcx6lZANPhnhjACPMtAJK+u1fSWK7nAWJffQ/+UAr88UwuRmPpXOTN3w8Am91dMB3fux/C3buLIJxT/Xbi0C0QGbRTJQMIO/ZCICEVzD8oAOvFIoB9+yHc8/ptX8I5deIEufpmGWnNphxA754VAWCbOcDzxr/OKSvA9FAc0/W8Jmk6JwoldOTbB15C/UUlNCvsLrBh7k9vZl/fLc7qQg0GSLz05rXQmf5vfFHxd180fe1+Agzg5DyZd03ZLhEfLdpG+VpUSm1WKfPPhMPhR+houo1mhZ98/tjkUgFSe96HtNIAQp02tyfJO1JqUwMkNmyD4MtvFQCGnLPbqM3uvtGPk7sXnwMKXYqrRrfMNzf4Oi2wH3wMfht2424BckvfPAARpenmICMDYLtlBpCBfoxYu+ggExtNEb5+4X0ot2VWq4Graob4zjfA/+sfU94Z80sBiOl7wffJYRgZwAsAGBmECw6PnPWJ85eozxfyUwDIqNrpdIthbsoiyeuybECoaQW+WgVcZTPEza/EvIMj5zxMamIhAKFtZw4gYXkVAp8dBfdfg3OeAYwMOO3uwNtWknxsMT9IVt91Oot2nr+i7H560YflmSFfWpQzt61t6H9ctfo7rkKd+yPCH1tLhpNfksFEfC4AasgJlBWb+xBT4TGcDP6CuUNqZDmVv/OKjUaX2GBQzPWMvEES4SRKDTqOeX87c93t9F13eSMT012IveGgWW7EG/EM05GTw17mEE4yGhzHH15W4wUArcUvoR0fLnS7AgRZldzU9ELy+XosuaEOEutrILauOoWUiritqmjuKrm5CVIVSkhuVEB8fe3PSKlIVGjGi7sVV6G8GtvYuBEpFYlKw2S+W/E1rRJX1WJESkmZlvZopsnkEZWGw1yd+pkH7aesssoqq6yykJWo/wE1UHevzJc0QQAAAABJRU5ErkJggg==">
-      </img>          <p class="font-medium text-gray-500 dark:text-gray-300">Intrest</p>
+      </img>          <p class="font-medium text-gray-500 dark:text-gray-300">Add </p>
 
                
               </div>
@@ -43,7 +43,7 @@ export default function sidebar() {
           </div>
           
         </div>
-        <div class="container px-1 py-0 mx-auto my-0">
+        {/* <div class="container px-1 py-0 mx-auto my-0">
 
        
           <div class="flex gap-3">
@@ -73,7 +73,7 @@ export default function sidebar() {
     
           </div>
           
-    </div>
+    </div> */}
 </div>
 
  
