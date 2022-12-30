@@ -34,7 +34,7 @@ const Signup = () => {
       };
     axios
       .post(
-        "https://inherited-stuck-asp-carrier.trycloudflare.com/api/signup-customer/",
+        "https://speaker-proteins-golden-cradle.trycloudflare.com/api/signup-customer/",
         userData
       )
       .then((res) => {

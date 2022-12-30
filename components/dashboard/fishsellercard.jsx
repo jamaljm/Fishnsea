@@ -14,7 +14,7 @@ export default function fishsellercard({fishimg}) {
 
   const getPosts = async () => {
     await axios
-      .get("https://duo-pacific-muscles-brakes.trycloudflare.com/api/listfish")
+      .get("https://speaker-proteins-golden-cradle.trycloudflare.com/api/listfish")
       .then((res) => {
         console.log(res.data);
           setData(res.data);

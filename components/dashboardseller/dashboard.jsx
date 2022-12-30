@@ -35,7 +35,7 @@ export default function dashboard() {
       };
       axios
       .post(
-          "https://imposed-game-seemed-warranty.trycloudflare.com/api/addfish/",
+          "https://speaker-proteins-golden-cradle.trycloudflare.com/api/addfish/",
           userData
           )
           .then((res) => {
@@ -93,10 +93,10 @@ export default function dashboard() {
                             </div>
 
                             <div className='sm:col-span-2'>
-                                <label for="" class="text-base font-medium text-gray-900"> Discription </label>
+                                <label for="" class="text-base font-medium text-gray-900"> Description </label>
                                 <div class="mt-2.5 relative">
                                     <textarea type="text" name="discription" id="" value={state.discription}
-                      onChange={handleChange} placeholder="Enter your age" class="block w-full px-4 py-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md focus:outline-none focus:border-blue-600 caret-blue-600" />
+                      onChange={handleChange} placeholder="Enter description" class="block w-full px-4 py-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md focus:outline-none focus:border-blue-600 caret-blue-600" />
                                 </div>
                             </div>
 

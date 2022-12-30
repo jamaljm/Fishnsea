@@ -11,7 +11,8 @@ export default function dashboard() {
       price: "",
       discription: "",
       retailers:"1",
-      fishermen:"1" ,
+      fishermen: "1",
+      image:"/images/f4.jpg",
         
         
   });
@@ -31,12 +32,12 @@ export default function dashboard() {
         discription: state.discription,
         retailers: state.retailers,
         fishermen: state.fishermen,
-
+        image: state.image,
 
       };
       axios
       .post(
-          "https://imposed-game-seemed-warranty.trycloudflare.com/api/addfish/",
+          "https://speaker-proteins-golden-cradle.trycloudflare.com/api/addfish/",
           userData
           )
           .then((res) => {
@@ -97,7 +98,7 @@ export default function dashboard() {
                                 <label for="" class="text-base font-medium text-gray-900"> Discription </label>
                                 <div class="mt-2.5 relative">
                                     <textarea type="text" name="discription" id="" value={state.discription}
-                      onChange={handleChange} placeholder="Enter your age" class="block w-full px-4 py-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md focus:outline-none focus:border-blue-600 caret-blue-600" />
+                      onChange={handleChange} placeholder="Enter description" class="block w-full px-4 py-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md focus:outline-none focus:border-blue-600 caret-blue-600" />
                                 </div>
                             </div>
 

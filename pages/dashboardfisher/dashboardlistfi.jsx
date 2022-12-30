@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../../components/navbar/navbardash'
-import Sidebar from '../../components/sidebarfisher/sidebar'
+import Sidebar from '../../components/sidebarseller copy/sidebar'
 import Dashboard from '../../components/dashboardseller/fishes'
 
 export default function dashboard() {
