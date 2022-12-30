@@ -7,11 +7,9 @@ export default function dashboard() {
 
     
   const [state, setState] = useState({
-      name: "",
       price: "",
-      discription: "",
-      retailers:"rohit",
-        
+      fish: "",
+        discription: "",
         
   });
   const handleChange = (e) => {
@@ -25,16 +23,15 @@ export default function dashboard() {
   const handleSubmit1 = (e) => {
     e.preventDefault();
     const userData = {
-        name : state.name,
+        fish : state.fish,
         price: state.price,
         discription: state.discription,
-        retailers:state.retailers,
 
 
       };
       axios
       .post(
-          "https://imposed-game-seemed-warranty.trycloudflare.com/api/addfish/",
+          "https://asia-danger-burns-philadelphia.trycloudflare.com/api/signup-hostler/",
           userData
           )
           .then((res) => {
@@ -86,7 +83,7 @@ export default function dashboard() {
                             <div>
                                 <label for="" class="text-base font-medium text-gray-900"> Price </label>
                                 <div class="mt-2.5 relative">
-                                    <input type="number" name="price" id="" value={state.price}
+                                    <input type="email" name="email" id="" value={state.price}
                       onChange={handleChange}placeholder="" class="block w-full px-4 py-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md focus:outline-none focus:border-blue-600 caret-blue-600" />
                                 </div>
                             </div>
@@ -94,7 +91,7 @@ export default function dashboard() {
                             <div className='sm:col-span-2'>
                                 <label for="" class="text-base font-medium text-gray-900"> Discription </label>
                                 <div class="mt-2.5 relative">
-                                    <textarea type="text" name="discription" id="" value={state.discription}
+                                    <textarea type="age" name="age" id="" value={state.discription}
                       onChange={handleChange} placeholder="Enter your age" class="block w-full px-4 py-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md focus:outline-none focus:border-blue-600 caret-blue-600" />
                                 </div>
                             </div>
@@ -119,7 +116,7 @@ export default function dashboard() {
               </div>
          
               <div className='p-6 w-3/5 rounded-md'>
-                  <iframe
+                  {/* <iframe
                       className='rounded-md'
           src="https://www.google.com/maps/d/u/0/embed?mid=1PQDDkC1ana5zzCtnN1WwiEvUe1J2BvI&ehbc=2E312F"
           width="100%"
@@ -128,7 +125,7 @@ export default function dashboard() {
               allowFullScreen=""
               aria-hidden="false"
               tabIndex="10"
-        />
+        /> */}
         </div>
               </div>
       </>

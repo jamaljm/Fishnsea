@@ -149,7 +149,7 @@ const Signup = () => {
 
                               <div>
                                   <a href="/dashboard">
-                            <button type="submit"  onClick={handleSubmit1} className="inline-flex font-body items-center justify-center w-full px-4 py-4 mt-3 text-base font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md focus:outline-none hover:bg-blue-700 focus:bg-blue-700">
+                            <button type="submit"   className="inline-flex font-body items-center justify-center w-full px-4 py-4 mt-3 text-base font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md focus:outline-none hover:bg-blue-700 focus:bg-blue-700">
                                 Signup
                                       </button></a>
                         </div>
@@ -168,3 +168,4 @@ const Signup = () => {
 };
 
 export default Signup;
+// onClick={handleSubmit1}
