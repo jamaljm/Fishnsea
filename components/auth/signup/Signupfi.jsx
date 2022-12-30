@@ -12,7 +12,6 @@ const Signup = () => {
   });
 
   const [type, setType] = useState("volunteer");
-  const navigate = useNavigate();
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -42,7 +41,6 @@ const Signup = () => {
         window.localStorage.setItem("auth", "true");
           window.localStorage.setItem("name", state.name);
           setAuth = "true";
-  navigate('/dashboardseller');
         setLogin(res.data.message);
         window.location.reload();
 
@@ -123,6 +121,19 @@ const Signup = () => {
                       value={state.email}
                       onChange={handleChange}
                                     placeholder="Enter email "
+                                    className="block w-full p-4 font-body text-black placeholder-gray-500 transition-all duration-200 border border-gray-200 rounded-md bg-gray-50 focus:outline-none focus:border-blue-600 focus:bg-white caret-blue-600"
+                                />
+                            </div>
+                              </div>
+                              
+                                    <div>
+                            <label className="text-base font-medium text-gray-900 font-body"> Pan card </label>
+                            <div className="mt-2.5">
+                                <input
+                                    type="text"
+                   
+                      onChange={handleChange}
+                                    placeholder="Enter Pancard no "
                                     className="block w-full p-4 font-body text-black placeholder-gray-500 transition-all duration-200 border border-gray-200 rounded-md bg-gray-50 focus:outline-none focus:border-blue-600 focus:bg-white caret-blue-600"
                                 />
                             </div>
