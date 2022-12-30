@@ -1,13 +1,53 @@
 import React from 'react'
+import { useState, useEffect } from 'react';
+import axios from 'axios';
+
 
 export default function fishsellercard({fishimg}) {
-  return (
-    <div className="flex flex-col justify-center ">
+   
+  const [data, setData] = useState([]);
+   const [searchParam] = useState(["city", "city"]);
+  const [q, setQ] = useState("");
+
+  const getPosts = async () => {
+    await axios
+      .get("https://duo-pacific-muscles-brakes.trycloudflare.com/api/listfish")
+      .then((res) => {
+        console.log(res.data);
+          setData(res.data);
+          console.log(data);
+        // handle success
+      })
+      .catch((err) => {
+        console.log(err);
+
+        // handle error
+      });
+    };
+    
+      function search(items) {
+    return items.filter((item) => {
+      return searchParam.some((newItem) => {
+        return (
+          item[newItem].toString().toLowerCase().indexOf(q.toLowerCase()) > -1
+        );
+      });
+    });
+  }
+ 
+  useEffect(() => {
+    getPosts();
+  }, []);
+
+    return (
+        <div className="flex flex-col justify-center ">
+     {data.map((item) => (
+              <div className='mt-4' key={item._id}>
 	<div
 		className="relative flex flex-col md:flex-row md:space-x-5 space-y-3 md:space-y-0 rounded-xl border-sm p-2 max-w-xs md:max-w-3xl mx-auto border border-slate-300 bg-white">
 		<div className="w-full md:w-2/6 bg-white grid place-items-center">
-                  <img src={fishimg} alt="tailwind logo" className="rounded-xl" />
-    </div>
+                    <img src={fishimg} alt="tailwind logo" className="rounded-xl" />
+                </div>
 			<div className="w-full md:w-2/3 h-full bg-white flex flex-col space-y-2 p-3">
 				<div className="flex justify-between item-center">
 					<p className="text-gray-500 font-medium hidden md:block">Aluva</p>
@@ -26,10 +66,10 @@ export default function fishsellercard({fishimg}) {
 					<div className="bg-green-200 px-3 py-1 rounded-full text-xs font-medium text-gray-800 hidden md:block">
 						Fresh</div>
 				</div>
-				<h3 className="font-body font-weight:500 ">Sardine</h3>
+				<h3 className="font-body  ">  {item.name}</h3>
                   <div className='flex gap-6'>
                       <p className="text-lg text-gray-800">
-					₹110
+					{item.price}
 					<span className="font-normal text-gray-600 text-base">/kg</span>
                       </p>
                       <div className="w-full max-w-xl xl:w-full items-center xl:mx-auto xl:pr-24 xl:max-w-xl">
@@ -69,7 +109,9 @@ export default function fishsellercard({fishimg}) {
                   </a>
 				
 			</div>
-		</div>
+                    </div>
+                    </div>
+    )) }
 	</div>
   )
 }
