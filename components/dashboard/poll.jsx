@@ -5,7 +5,7 @@ import Dishcard from './dishcard'
 export default function poll() {
   return (
       <>
-          <div className='flex flex-col  w-full gap-5 px-8 rounded-br-xl px-5 pr-px-5 bg-white'>
+          <div className='flex flex-col  w-full gap-5 px-8 rounded-br-xl pr-px-5 bg-white'>
               <h3 class="mb-4 font-semibold text-md  mt-9  text-gray-900 dark:text-white">Your tommorow fish intrest</h3>
 <ul class="w-80  text-sm font-medium text-gray-900 bg-white rounded-lg border border-gray-200 dark:bg-gray-700 dark:border-gray-600 dark:text-white">
     <li class="w-full rounded-t-lg border-b border-gray-200 dark:border-gray-600">

@@ -52,7 +52,7 @@ export default function dashboard() {
 	<div className="mb-2 text-3xl font-semibold"> {Math.round(apiData?.main?.temp-273)}°C
 		<span className="mx-1 font-normal"></span>
 	</div>
-                      <p className="dark:text-gray-400">{apiData?.main?.temp}</p>
+                      <p className="dark:text-gray-400">temp</p>
 </div>
     
                    <div className="flex flex-col items-center p-8 bg-slate-200 rounded-md w-60 sm:px-12 dark:bg-gray-900 dark:text-gray-100">
