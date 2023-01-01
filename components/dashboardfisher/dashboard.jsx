@@ -21,7 +21,6 @@ export default function dashboard() {
     );
   }, []);
 
-  const apiKey = process.env.REACT_APP_API_KEY;
   const apiUrl = 'https://api.openweathermap.org/data/2.5/weather?lat=10.2695871&lon=76.3995414&appid=bfdc9a91eab2d259c7606759452bc4c9';
 
   
